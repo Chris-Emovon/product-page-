@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+#avatar {
+    width: 35px;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+#cart {
+   margin-left: 10px;
+}
+#mainProduct {
+    width: 20rem;
+}
+.container {
+    margin-top: 5rem;
+}
+.other {
+    width: 4rem;
+    margin: 8px;
+}
+#name {
+    color: #FF8C00;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 600;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+#copy {
+    color: #787878;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+p:nth-of-type(3) {
+    color: #c5c5c5;
+    text-decoration: line-through;
+    font-size: 1rem;
+    font-weight: 600;
+}
+h3 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    font-style: bold;
+    letter-spacing: 1px;
+    
+}
+.percent {
+    color: #FF8C00;
+    font-size: medium;
+    margin-left: 1rem;
+    margin-top: 4px;
+    background-color: #feddc1;
+    padding: 5px;
+}
+#quantity {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-weight: 600;
+}
+#increment {
+    padding: 10px;
+}
+button {
+    background-color: orange;
+    margin-left: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+}
+#action {
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    
+}
+#color {
+    background-color: #FF8C00;
+    justify-content: end;
+}
+strong {
+    font-weight: bold;
+}
+hr {
+    width: 78rem;
+    margin-left: 3.5rem;
+    margin-top: 1rem;
+    height: 1px;
+    position: fixed;
+
+}
+.navbar {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 10px;
+}
+.board {
+    border-bottom: 10px solid orange;
+}
+#color:hover {
+    color: transparent white;
+}
+.nav-link:active {
+    border-bottom: solid 5px orange;
+    padding-bottom: 25px;
+    transition: 4ms;
+}
+
+    
+    
