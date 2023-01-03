@@ -1,7 +1,5 @@
 const Navbar = () => {
 
-    
- 
     return ( 
       <div className="container-fluid ">
         <nav className="navbar navbar-expand-lg m-l 5">
