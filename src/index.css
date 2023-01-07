@@ -12,10 +12,9 @@ body {
 }
 #mainProduct {
     width: 20rem;
+    margin-top: 7rem;
 }
-.container {
-    margin-top: 5rem;
-}
+
 .other {
     width: 4rem;
     margin: 8px;
@@ -25,6 +24,7 @@ body {
     letter-spacing: 2px;
     font-size: 13px;
     font-weight: 600;
+    margin-top: 7rem;
 }
 h1 {
     font-size: 2rem;
@@ -113,5 +113,77 @@ hr {
     transition: 4ms;
 }
 
-    
-    
+@media screen and (max-width: 400px) {
+    .other {
+        display: none;
+    }
+    hr {
+        display: none;
+    }#mainProduct {
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-top: 0;
+    }
+    br {
+        display: none;
+    }
+    #increment {
+        width: 100%;
+    }
+    #quantity {
+        justify-content: center;
+    }
+    br:nth-last-of-type(1) {
+        display: block;
+    }
+    #quantity {
+        margin-right: 4rem;
+        padding-left: 6.5rem;
+        padding-top: 4px;
+    }
+    #plus {
+        float: right;
+        margin-right: 2rem;
+    }
+    button {
+        display: block;
+        margin-top: 2rem;
+        justify-content: center;
+        margin-bottom: 4rem;
+    }
+    #action {
+       padding-left: 4rem;
+       padding-right: 4rem;
+    }
+    #increment {
+        justify-self: center;
+    }
+    .minus {
+        margin-left: 2rem ;
+    }
+    #align {
+        margin-left: 10px;
+    }
+    #copy {
+        margin-bottom: 2rem;
+    }
+    .navbar-toggler {
+        position: relative;
+    }
+    .navbar-brand {
+        padding: 0;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 600px){
+    hr {
+        display: none;
+    }
+    #mainProduct {
+        justify-content: center;
+    }
+}@media screen and (max-width: 801px){
+    hr {
+        display: none;
+    }
+}

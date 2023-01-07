@@ -12,8 +12,6 @@ const Product = () => {
         setQuantity(quantity -1)
     }
 
-    
-
 
     return ( 
         <div className="container">
@@ -27,18 +25,18 @@ const Product = () => {
                      <img src="/images/image-product-4-thumbnail.jpg" className="other rounded" alt=""  />
                     
                 </div>
-                <div className="col-lg-6">
+                <div id="align" className="col-lg-6 col-md-6">
                     <p id="name"><strong>SNEAKER COMPANY</strong></p>
                     <h1>
                         Fall limited Edition<br />
                         Sneakers
                     </h1> 
                     <p id="copy">
-                        These low-profile sneakers are your perfect casual wear<br />
-                        companion.Featuring a durable outer sole, they'll<br />
-                        withstand everything the weather can offer.<br />
+                        These low-profile sneakers are your perfect casual wear <br />
+                        companion.Featuring a durable outer sole, they'll <br />
+                        withstand everything the weather can offer. <br />
                     </p>
-                    <h3><strong>$125.00</strong><span className="percent rounded">50%</span></h3>
+                    <h3><strong>$125.00</strong><span className="percent rounded">50%</span><span className="d-none col-sm">$250.00</span></h3>
                     <p>$250.00</p>
                     <span id="increment">
                     <img id="minus" src="/images/icon-minus.svg" alt="" onClick={change}/>
